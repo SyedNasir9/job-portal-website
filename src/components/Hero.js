@@ -1,4 +1,3 @@
-// src/components/Hero.js
 const Hero = () => {
     return (
       <section className="hero">

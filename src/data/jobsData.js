@@ -71,7 +71,6 @@ const jobs = [
         contactPhone: '9876543214',
       },
     },
-    // Add even more if you want!
   ];
   
   export default jobs;

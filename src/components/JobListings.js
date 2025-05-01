@@ -1,10 +1,9 @@
-// src/components/JobListings.js
 import { Link } from 'react-router-dom';
 import jobs from '../data/jobsData';
-import JobCard from './JobCard'; // a separate component to show each job nicely
+import JobCard from './JobCard'; 
 
 const JobListings = ({ isHome }) => {
-  const jobsToShow = isHome ? jobs.slice(0, 3) : jobs; // show 3 if home page
+  const jobsToShow = isHome ? jobs.slice(0, 3) : jobs; 
 
   return (
     <section className="job-listings">

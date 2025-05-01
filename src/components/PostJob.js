@@ -18,7 +18,7 @@ const PostJob = ({ addJob }) => {
     }
 
     const newJob = {
-      id: Date.now(), // unique id based on timestamp
+      id: Date.now(), 
       title,
       type,
       location,

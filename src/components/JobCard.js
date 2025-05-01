@@ -1,6 +1,3 @@
-
-// src/components/JobCard.js
-
 import { Link } from 'react-router-dom';
 
 const JobCard = ({ job }) => {
