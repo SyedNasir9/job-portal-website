@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
-        IMAGE_NAME = "your-dockerhub-username/your-app"
+        IMAGE_NAME = "SyedNasir9/job-portal-website"
     }
     stages {
         stage('Clone Repository') {
