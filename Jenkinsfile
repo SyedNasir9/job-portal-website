@@ -2,16 +2,9 @@ pipeline {
     agent any
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-credentials')
-        IMAGE_NAME = "SyedNasir9/job-portal-website"
+        IMAGE_NAME = "syednasir9/job-portal-website"
     }
     stages {
-       stage('Clone Repository') {
-            steps {
-                    git branch: 'main', url: 'https://github.com/SyedNasir9/job-portal-website.git'
-                }
-            }
-
-        }
         stage('Build Docker Image') {
             steps {
                 script {
@@ -34,3 +27,4 @@ pipeline {
             }
         }
     }
+}
