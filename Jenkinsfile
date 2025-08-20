@@ -5,10 +5,12 @@ pipeline {
         IMAGE_NAME = "SyedNasir9/job-portal-website"
     }
     stages {
-        stage('Clone Repository') {
+       stage('Clone Repository') {
             steps {
-                git 'https://github.com/SyedNasir9/job-portal-website.git'
+                    git branch: 'main', url: 'https://github.com/SyedNasir9/job-portal-website.git'
+                    }
             }
+
         }
         stage('Build Docker Image') {
             steps {
