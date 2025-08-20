@@ -8,7 +8,7 @@ pipeline {
        stage('Clone Repository') {
             steps {
                     git branch: 'main', url: 'https://github.com/SyedNasir9/job-portal-website.git'
-                    }
+                }
             }
 
         }
