@@ -278,7 +278,7 @@ We welcome contributions! Please follow these steps:
 
 **Syed Nasir**
 - GitHub: [@syednasir9](https://github.com/syednasir9)
-- LinkedIn: [Your LinkedIn](https://www.linkedin.com/in/syednasir111-/)
+- LinkedIn: [@SyedNasir111-](https://www.linkedin.com/in/syednasir111-/)
 
 ## 🙏 Acknowledgments
 
