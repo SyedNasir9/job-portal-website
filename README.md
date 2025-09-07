@@ -7,6 +7,7 @@
 
 A modern, responsive job portal web application built with React.js and enhanced with DevOps best practices. This project demonstrates full-stack development skills combined with containerization, CI/CD pipelines, and automated deployment workflows.
 
+
 ## 📋 Table of Contents
 
 - [Features](#-features)
